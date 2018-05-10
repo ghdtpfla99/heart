@@ -22,6 +22,7 @@ function setup() {
   
    img=loadImage('14.png');
 
+image(img, 0, 0);
   
  
 
