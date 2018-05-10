@@ -22,7 +22,7 @@ function setup() {
   
    img=loadImage('14.png');
 
-  image(img, 0, 0);
+  
  
 
 }
@@ -30,8 +30,7 @@ function setup() {
  
 
 function draw() {
-
-  background(255);
+image(img, 0, 0);
   
 
    image(player[dir], xPos, yPos);
