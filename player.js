@@ -1,9 +1,10 @@
 var image;
+
 var player = new Array(2);
 
 var dir, xPos, yPos;
 
- 
+  
 
 function setup() {
 
@@ -19,7 +20,10 @@ function setup() {
 
   yPos=0;
   
-  img=loadImage('14.PNG');
+   img=loadImage('14.png');
+
+  image(img, 0, 0);
+ 
 
 }
 
